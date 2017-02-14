@@ -92,12 +92,6 @@ public class Testcase1 {
 
 	}
 
-	@Test
-	public void test2() {
-		System.out.println("Testcase1.test2()");
-		fail("Not yet implemented");
-	}
-
 	private void gotoSchoolPage(String schoolName) {
 		driver.findElement(By.id("findSchool")).click();
 		
